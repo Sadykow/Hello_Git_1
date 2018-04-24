@@ -2,6 +2,8 @@
 
 This exercise should provide students with basic understanding how to work with huge group of people using Git Version Control.
 
+Week 8 Thursday 26 (8-10am) S-518
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine. YOur task will be implement some part of the code in your own branch, merging, logging and time travel through your commits if necessary.
