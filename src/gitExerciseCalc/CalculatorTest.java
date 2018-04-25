@@ -26,5 +26,13 @@ public class CalculatorTest {
 		assertEquals("Addition of two strings doesn't match",
 				"Hello there.", calc.getResults());
 	}
+	
+	@Test
+	public void testAdditionerDoubles() {
+		calc = new Additioner(0.34, 0.42, 2);
+		System.out.println(calc.getResult());
+		assertEquals("Addition of two doubles doesn't match",
+				"0.76", calc.getResults())
+	}
 
 }
