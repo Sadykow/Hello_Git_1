@@ -34,5 +34,13 @@ public class CalculatorTest {
 		assertEquals("Addition of two doubles doesn't match",
 				"0.76", calc.getResults())
 	}
+	
+	@Test
+	public void testFactorial() {
+		calc = new Factorial(7);
+		System.out.println(calc.getResult());
+		assertEquals("Factorial value doesn't match",
+				"28", calc.getResults())
+	}
 
 }
