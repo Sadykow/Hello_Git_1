@@ -52,6 +52,15 @@ public class Additioner implements Calculator {
 	/*
 	 * Develop your methods...
 	 */
+	 
+	 public void useless(void){
+		int case = 4;
+		for(int i=case-1; i>1,i--){
+			case=case*i;
+		}
+		
+	 }
+	 
 	
 	/**
 	 * Use cases to switch between your methods

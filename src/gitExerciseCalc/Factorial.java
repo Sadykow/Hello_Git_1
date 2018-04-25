@@ -1,5 +1,6 @@
 package gitExerciseCalc;
 
+
 public class Factorial implements Calculator{
 	
 	private int value;
@@ -23,4 +24,5 @@ public class Factorial implements Calculator{
 		}
 		return sum + "";
 	}
+
 }
