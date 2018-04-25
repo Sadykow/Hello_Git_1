@@ -10,14 +10,11 @@ package gitExerciseCalc;
 public class Additioner implements Calculator {
 
 	/* (non-Javadoc)
+	 *This class adds values.
 	 * @see gitExerciseCalc.Calculator#getResult()
 	 */
 	private double valueA, valueB;
 	private int method;
-
-	/**
-	*The best comment
-	*/
 	
 	/**
 	 * Constructor deals with integers.
