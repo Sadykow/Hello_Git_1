@@ -16,7 +16,7 @@ public class Additioner implements Calculator {
 	private int method;
 
 	/**
-	*Hey Mate
+	*Hippity Hoppity Get Off My Property
 	*/
 	
 	/**
