@@ -43,4 +43,12 @@ public class CalculatorTest {
 				"28", calc.getResults())
 	}
 
+	@Test
+	public void testDouble() {
+		calc = new Additioner(6.0,3.0,1.0);
+		System.out.println(calc.getResult());
+		assertEquals("Addition of two integers does't match",
+				"9.0", calc.getResult());
+	}
+	
 }
