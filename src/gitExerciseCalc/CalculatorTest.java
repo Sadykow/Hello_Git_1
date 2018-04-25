@@ -18,5 +18,13 @@ public class CalculatorTest {
 		assertEquals("Addition of two integers does't match",
 				"6.0", calc.getResult());
 	}
+	
+	@Test
+	public void testAdditionerStrings() {
+		calc = new Additioner("Hello ", "there.", "3");
+		System.out.println(calc.getResult());
+		assertEquals("Addition of two strings doesn't match",
+				"Hello there.", calc.getResults());
+	}
 
 }
