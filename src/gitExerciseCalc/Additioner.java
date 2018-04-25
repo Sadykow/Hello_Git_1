@@ -12,7 +12,7 @@ public class Additioner implements Calculator {
 	/* (non-Javadoc)
 	 * @see gitExerciseCalc.Calculator#getResult()
 	 */
-	private double valueA, valueB;
+	private double valueAlpha, valueBeta;
 	private int method;
 	
 	/**
@@ -22,7 +22,7 @@ public class Additioner implements Calculator {
 	 * @param method will define way of performing operation.
 	 */
 	public Additioner(int a, int b, int method) {
-		valueA = a; valueB = b;
+		valueAlpha = a; valueBeta = b;
 		this.method = method;
 	}
 	
@@ -33,7 +33,7 @@ public class Additioner implements Calculator {
 	 * @param method will define way of performing operation.
 	 */
 	public Additioner(double a, double b, double method) {
-		valueA = a; valueB = b;
+		valueAlpha = a; valueBeta = b;
 		this.method = (int)method;
 	}
 	
@@ -60,7 +60,7 @@ public class Additioner implements Calculator {
 	public String getResult() {
 		switch(method) {
 		case 1:
-			return valueA + valueB+"";
+			return valueAlpha + valueBeta +"";
 			default:
 				return null;
 		}		
