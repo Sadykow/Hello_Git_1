@@ -14,6 +14,10 @@ public class Additioner implements Calculator {
 	 */
 	private double valueA, valueB;
 	private int method;
+
+	/**
+	*Hey Mate
+	*/
 	
 	/**
 	 * Constructor deals with integers.
