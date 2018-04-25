@@ -10,6 +10,7 @@ package gitExerciseCalc;
 public class Additioner implements Calculator {
 
 	/* (non-Javadoc)
+	 *This class adds values.
 	 * @see gitExerciseCalc.Calculator#getResult()
 	 */
 	private double valueAlpha, valueBeta;
