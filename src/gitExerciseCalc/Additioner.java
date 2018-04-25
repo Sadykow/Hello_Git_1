@@ -26,6 +26,7 @@ public class Additioner implements Calculator {
 		this.method = method;
 	}
 	
+	
 	/**
 	 * Constructor deals with doubles.
 	 * @param a doubles
