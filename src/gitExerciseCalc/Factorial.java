@@ -3,14 +3,14 @@ package gitExerciseCalc;
 
 public class Factorial implements Calculator{
 	
-	private int value;
+	private int values;
 	
 	/**
 	 * Factorial Constructor
 	 * @param number int
 	 */
 	public Factorial(int number) {
-		value = number;
+		values = number;
 	}
 	
 	/**
@@ -19,7 +19,7 @@ public class Factorial implements Calculator{
 	@Override
 	public String getResult() {
 		int sum = 0;
-		for(int factor = 1; factor <= value; factor++) {
+		for(int factor = 1; factor <= values; factor++) {
 			sum += factor;
 		}
 		return sum + "";
