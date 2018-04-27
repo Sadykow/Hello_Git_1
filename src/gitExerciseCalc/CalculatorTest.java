@@ -16,7 +16,7 @@ public class CalculatorTest {
 		calc = new Additioner(3,3,1);
 		System.out.println(calc.getResult());
 		assertEquals("Addition of two integers does't match",
-				"6.0", calc.getResult());
+				"6", calc.getResult());
 	}
 	
 	@Test
