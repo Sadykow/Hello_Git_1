@@ -32,7 +32,7 @@ public class CalculatorTest {
 		calc = new Additioner(0.34, 0.42, 2);
 		System.out.println(calc.getResult());
 		assertEquals("Addition of two doubles doesn't match",
-				"0.76", calc.getResult())
+				"0.76", calc.getResult());
 	}
 	
 	@Test
@@ -40,7 +40,7 @@ public class CalculatorTest {
 		calc = new Factorial(7);
 		System.out.println(calc.getResult());
 		assertEquals("Factorial value doesn't match",
-				"28", calc.getResult())
+				"28", calc.getResult());
 	}
 
 	@Test
