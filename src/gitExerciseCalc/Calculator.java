@@ -15,3 +15,4 @@ public interface Calculator {
 	 */
 	public String getResult();
 }
+Calculator.java
