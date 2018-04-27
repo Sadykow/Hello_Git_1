@@ -61,30 +61,41 @@ public class Additioner implements Calculator {
 	 *            will define way of performing operation.
 	 */
 	public Additioner(String a, String b, String method) {
-		// Develop something
-		this.stringAlpha = a;
-		this.stringBeta = b;
+
+		stringAlpha = a;
+		stringBeta = b;
 		this.method = Integer.parseInt(method);
 	}
+	
+	/*
+	 * Develop your methods...
+	 */
+	 
+	 public String useless(){
+		 return valueAlpha + valueBeta +"";
+	 }
+	 
+	 public String Worthless() {
+		 return stringAlpha + stringBeta;
+	 }
 
 	/**
 	 * Use cases to switch between your methods
 	 */
 	@Override
 	public String getResult() {
-		switch (method) {
-		case 1: // integers
-			return String.valueOf((double)((int)this.valueAlpha + (int)this.valueBeta));
-			
-		case 2: // doubles 
-			return String.valueOf((double)this.valueAlpha + (double)this.valueBeta);
-		
-		case 3: // string concat
-			return this.stringAlpha + this.stringBeta;
-			
+
+		switch(method) {
+		case 1:
+			return valueAlpha + valueBeta +"";
+		case 2:
+			return useless();
+		case 3:
+			return Worthless();
 		default:
 			return null;
-		}
+		}		
+
 	}
 
 }
