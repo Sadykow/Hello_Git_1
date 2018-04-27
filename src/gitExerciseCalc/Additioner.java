@@ -13,7 +13,7 @@ public class Additioner implements Calculator {
 	 * @see gitExerciseCalc.Calculator#getResult()
 	 */
 	private double valueAlpha, valueBeta;
-	private int method;
+	private int themethod;
 	
 	/**
 	 * Constructor deals with integers.
@@ -23,7 +23,7 @@ public class Additioner implements Calculator {
 	 */
 	public Additioner(int a, int b, int method) {
 		valueAlpha = a; valueBeta = b;
-		this.method = method;
+		this.themethod = method;
 	}
 	
 	
@@ -35,7 +35,7 @@ public class Additioner implements Calculator {
 	 */
 	public Additioner(double a, double b, double method) {
 		valueAlpha = a; valueBeta = b;
-		this.method = (int)method;
+		this.themethod = (int)method;
 	}
 	
 	/**
@@ -47,7 +47,8 @@ public class Additioner implements Calculator {
 	public Additioner(String a, String b, String method) {
 		// Develop something
 		/*...*/
-		this.method = Integer.parseInt(method);
+		this.themethod = Integer.parseInt(method);
+
 	}
 	
 	/*
