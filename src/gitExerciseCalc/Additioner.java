@@ -54,10 +54,11 @@ public class Additioner implements Calculator {
 	 * Develop your methods...
 	 */
 	 
-	 public void useless(void){
-		int case = 4;
-		for(int i=case-1; i>1,i--){
-			case=case*i;
+	 public void useless(){
+		//changed case to num
+		int num = 4;
+		for(int i=num-1; i>1; i--){
+			num=num*i; 
 		}
 		
 	 }
