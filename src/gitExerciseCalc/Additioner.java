@@ -13,6 +13,7 @@ public class Additioner implements Calculator {
 	 * @see gitExerciseCalc.Calculator#getResult()
 	 */
 	private double valueAlpha, valueBeta;
+	private String stringAlpha, stringBeta;
 	private int method;
 	
 	/**
@@ -45,8 +46,8 @@ public class Additioner implements Calculator {
 	 * @param method will define way of performing operation.
 	 */
 	public Additioner(String a, String b, String method) {
-		// Develop something
-		/*...*/
+		stringAlpha = a;
+		stringBeta = b;
 		this.method = Integer.parseInt(method);
 	}
 	
@@ -54,12 +55,12 @@ public class Additioner implements Calculator {
 	 * Develop your methods...
 	 */
 	 
-	 public void useless(void){
-		int case = 4;
-		for(int i=case-1; i>1,i--){
-			case=case*i;
-		}
-		
+	 public String useless(){
+		 return valueAlpha + valueBeta +"";
+	 }
+	 
+	 public String Worthless() {
+		 return stringAlpha + stringBeta;
 	 }
 	 
 	
@@ -71,8 +72,12 @@ public class Additioner implements Calculator {
 		switch(method) {
 		case 1:
 			return valueAlpha + valueBeta +"";
-			default:
-				return null;
+		case 2:
+			return useless();
+		case 3:
+			return Worthless();
+		default:
+			return null;
 		}		
 	}
 
