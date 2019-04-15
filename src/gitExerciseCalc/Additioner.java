@@ -52,7 +52,10 @@ public class Additioner implements Calculator {
 
 	/**
 	 * Constructor deals with strings.
-	 * 
+	 *
+	 *
+	 * FIDDEL DEE DEE POTATOES
+	 *
 	 * @param a
 	 *            doubles
 	 * @param b
