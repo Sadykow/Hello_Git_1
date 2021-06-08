@@ -66,6 +66,7 @@ Print it and stick with table of Collections.
 ## Contributing
 
 Please read [CONTRIBUTING.md](https://github.com/) too see how many my OS's girs participated in writing.
+** Verification commit for GPG key **
 
 ## Authors
 
