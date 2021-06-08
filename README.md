@@ -67,7 +67,7 @@ Print it and stick with table of Collections.
 
 Please read [CONTRIBUTING.md](https://github.com/) too see how many my OS's girs participated in writing.
 ** Verification commit for GPG key **
-** Verification commit for GPG key with VSCOde **
+** Verification commit for GPG key with VSCOde and fixed email **
 
 ## Authors
 
